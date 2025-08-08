@@ -10,7 +10,6 @@ echo "Detected GNOME Shell major version: $MAJOR_VERSION"
 
 for EXT_ID in "${EXTENSION_IDS[@]}"; do
     INFO=""
-    # Use only major version for compatibility check
     INFO=$(wget -qO- "https://extensions.gnome.org/extension-info?pk=$EXT_ID&shell_version=$MAJOR_VERSION" || echo "")
     if [[ -z "$INFO" || "$INFO" == "null" ]]; then
         echo "No compatible extension found for ID $EXT_ID and GNOME Shell major version $MAJOR_VERSION"
