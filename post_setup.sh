@@ -5,3 +5,4 @@
 pkexec systemctl enable warp-svc && systemctl start warp-svc
 sleep 1
 warp-cli registration new
+ujust dx-group
