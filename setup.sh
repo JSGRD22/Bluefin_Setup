@@ -6,7 +6,6 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 gsettings set org.gnome.desktop.wm.preferences button-layout ':close'
 ujust devmode
 ujust bluefin-cli
-ujust dx-group
 ujust toggle-tailscale
 ujust install-system-flatpaks
 
