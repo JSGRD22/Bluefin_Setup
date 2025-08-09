@@ -23,7 +23,7 @@ DESKTOP_FILE="$HOME/.config/autostart/post_setup_once.desktop"
 cat > "$DESKTOP_FILE" <<EOF
 [Desktop Entry]
 Type=Application
-Exec=bash -c 'ptyxis -- bash -c "cd \"$SCRIPT_DIR\" && ./post_setup.sh; read -p Press\ ENTER\ to\ close; rm -f \"$DESKTOP_FILE\" "'
+Exec=bash -c 'ptyxis -- bash -c "cd $SCRIPT_DIR && ./post_setup.sh; rm -f $DESKTOP_FILE"'
 Hidden=false
 X-GNOME-Autostart-enabled=true
 Name=Post Setup
