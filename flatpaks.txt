@@ -31,6 +31,7 @@ md.obsidian.Obsidian
 me.iepure.devtoolbox
 net.lutris.Lutris
 net.sapples.LiveCaptions
+org.audacityteam.Audacity
 org.gimp.GIMP
 org.gnome.Calculator
 org.gnome.Calendar
@@ -57,7 +58,6 @@ org.gnome.font-viewer
 org.gnome.gitlab.YaLTeR.VideoTrimmer
 org.gnome.seahorse.Application
 org.gustavoperedo.FontDownloader
-org.inkscape.Inkscape
 org.kde.kdenlive
 org.libreoffice.LibreOffice
 org.mozilla.Thunderbird
@@ -65,7 +65,6 @@ org.mozilla.firefox
 org.prismlauncher.PrismLauncher
 org.qbittorrent.qBittorrent
 org.sqlitebrowser.sqlitebrowser
-org.tenacityaudio.Tenacity
 org.vinegarhq.Sober
 org.wireshark.Wireshark
 org.zotero.Zotero
