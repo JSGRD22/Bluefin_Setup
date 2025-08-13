@@ -14,6 +14,7 @@ com.tencent.WeChat
 com.tencent.wemeet
 com.usebottles.bottles
 com.valvesoftware.Steam
+io.bassi.Amberol
 io.github.Fndroid.clash_for_windows
 io.github.alainm23.planify
 io.github.diegoivanme.flowtime
