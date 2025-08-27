@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-EXTENSION_IDS=(779 5982 7266 1720)
+EXTENSION_IDS=(779 5982 1720)
 FULL_VERSION=$(gnome-shell --version | awk '{print $3}')
 MAJOR_VERSION=$(echo "$FULL_VERSION" | cut -d. -f1)
 UUIDS=()
