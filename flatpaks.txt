@@ -9,7 +9,6 @@ com.ticktick.TickTick
 com.usebottles.bottles
 com.valvesoftware.Steam
 io.github.Fndroid.clash_for_windows
-io.gitlab.theevilskeleton.Upscaler
 it.mijorus.gearlever
 md.obsidian.Obsidian
 net.lutris.Lutris
@@ -17,7 +16,6 @@ net.sapples.LiveCaptions
 org.audacityteam.Audacity
 org.gimp.GIMP
 org.gnome.Mines
-org.gnome.gitlab.YaLTeR.VideoTrimmer
 org.gnome.seahorse.Application
 org.kde.kdenlive
 org.libreoffice.LibreOffice
